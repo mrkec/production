@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+/* font-family: 'Roboto', sans-serif; */
+
+}
+.navbar-brand{
+    padding: 2px 3px;
+    background-color:#f07459 ;
+    color: #fff;
+    border-radius: 12px;
+}
+.navbar .nav-item{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: .8rem;
+    margin: 0 4px;
+    text-align: center;
+}
+.navbar .nav-item:hover .nav-link{
+    /* text-transform: capitalize;
+    font-weight: 600;
+    font-size: .8rem;
+    margin: 0 4px;
+    text-align: center; */
+    font-weight: 200;
+    border-bottom: 3px solid #f07459;
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+    transition: .2s ease-in;
+}
+
+
+.nav-link{
+    /* color: #fff !important; */
+    text-align: center;
+    color: #000 !important;
+}
+.navbar-toggler{
+    /* background-color:#fff; */
+}
+.navbar-toggler-icon,.fa{
+    color: #fff;
+}
+/* about css start */
+#about-carousel1{
+    /* height: 50vh; */
+    /* border: 2px solid brown; */
+}
+.carousel-inner img{
+    max-height:450px;
+    opacity: .78;
+}
+.carousel-item h5{
+    color:#f76f6f !important;
+}
+.carousel-item p{
+    color:#f76f6f !important;
+}
+
+
+
+
+/* about css end */
+/* services section start */
+
+#services .content{
+    background-color: #e9aaaa;
+    border-top-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+
+}
+#services .row .content h3{
+    color: #fff !important;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#services .row .content img{
+    margin-top: 12px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    margin-left: 20%;
+
+}
+#services .row .content #img1{
+    margin-top: 12px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    margin-left: 20%;
+
+}
+#services .row .content p{
+    color: #000;
+    font-weight: bold;
+    font-family: 'Fredoka', sans-serif;
+    padding-bottom: 15px;
+}
+
+
+
+/* services section end */
+
+
+
+
+
+
+/* gallery css start */
+#gallery{
+    background: linear-gradient( to bottom, rgba(148, 147, 148, 0.2),rgba(247, 130, 103, 0.2)),url(../img/slider-1.jpg);
+    background-position: center 100%;
+    background-size: cover;
+    background-color:#f07459 ;
+    height: 80vh;
+}
+#gallery p{
+    margin-top: 20%;
+    padding: 20px 23px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 0 2px 2px rgb(118, 121, 128);
+
+}
+#gallery p:hover{
+    margin-top: 20%;
+
+    /* padding: 20px 23px; */
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    color: #fff;
+    border-bottom: 2px solid rgb(240, 149, 116);
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    font-weight: bold;
+    transition: .2s;
+    color: #000;
+    background-color: #f76f6f;
+    font-family: 'Fredoka', sans-serif;
+    /* box-shadow: 0 0 2px 2px rgb(118, 121, 128); */
+
+}
+/* gallery css end */
+/* contact css star */
+
+#contact{
+    /* background-image: url();
+    */
+    background:linear-gradient(rgb(247, 240, 240,.1),rgb(247, 240, 240,.1)),url(../images/marketing_l_6.jpg);
+    background-position:center 100%;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    /* background-color:!important ; */
+    font-family:'Baloo 2', cursive !important ;
+    width: 100vw;
+    height: 90vh;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    border: 2px solid black;
+
+}
+#contact h1{
+color: #000;
+padding:  0;
+font-size: 23px;
+text-align: center;
+font-weight: bold;
+box-sizing: border-box;
+}
+.form-content{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+/* border: 2px solid black; */
+border-radius: 34px;
+width: 35vw;
+height: 70vh;
+/* float: right; */
+position: absolute;
+top: 40%;
+left: 50%;
+
+/* margin-right: 23px; */
+background-color: #fff;
+margin-bottom: 23px;
+color: #000;
+/* transform: translateZ(-150%); */
+  }
+.form-content h3{
+    border-bottom: 3px solid black;
+}
+
+
+.form-group {
+    margin-top: 12px;
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 2px solid green; */
+   
+}
+.form-control{
+    border-radius: none !important;
+}
+.form-group input{
+    padding: 23px 12px;
+    display: inline-flex;
+    /* border: 2px solid green; */
+    width: 30vw;
+    outline: transparent;
+    border: 0px solid;
+    /* background-color: #f76f6f; */
+    border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  /* border-bottom-style: groove; */
+  /* background-color: #eee; */
+   
+    border-bottom: 2px solid black;
+    
+}
+ .form-group input:active{
+    outline: none;
+}
+
+.form-group input::placeholder{
+    text-align: center;
+}
+
+
+
+/* contact section end */
+
+/* footer css start */
+
+#footer{
+    padding: 15px 0;
+    text-transform: capitalize;
+    font-family: 'Baloo 2', cursive;
+    background-color: #f76f6f;
+    color: white;
+}
+#footer .row .col-md-4{
+    text-align: center;
+    margin-top: 4px;
+    /* background-color: rgb(19, 18, 18); */
+    color: white;
+    /* border: 2px solid red; */
+    padding: 2px 12px;
+}
+#footer .row .col-md-4 h3{
+    /* color: white; */
+    /* background-color: blue; */
+   
+}
+#footer .row .col-md-4 a{
+    /* color: white; */
+    /* background-color: blue; */
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+   
+}
+#footer .row p i{
+    /* color: white; */
+    /* background-color: blue; */
+    /* text-decoration: none;
+    color: white; */
+    margin: 2px 5px;
+    padding: 2px 4px;
+    /* background-color: red; */
+   
+}
+#footer .row .col-md-3 p i{
+
+    margin-left: 2px;
+    padding: 2px 8px;
+    /* background-color: brown; */
+    /* color: white; */
+    /* background-color: blue; */
+    /* text-decoration: none;
+    color: white; */
+   
+}
+/* footer css end */
